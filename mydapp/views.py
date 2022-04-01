@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
 
-from myapp_app.form import EmployeeForm
+from mydapp.form import EmployeeForm
 
 
 def index(req):

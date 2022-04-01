@@ -2,7 +2,7 @@ from dataclasses import field, fields
 
 from django import forms
 
-from myapp_app.models import Employee
+from mydapp.models import Employee
 
 
 class EmployeeForm(forms.ModelForm):
