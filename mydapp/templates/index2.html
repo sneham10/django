@@ -3,11 +3,7 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
-
-<h5>Student Registration Form</h5>
-<br>
-
-<form method="post" action="">
+<form method="POST" enctype="multipart/form-data">
   {% csrf_token %}
   <div class="row">
     <div class="col-md-6">
@@ -19,18 +15,14 @@
     </div>
 
     <div class="col-md-12">
-        {{ form.email|as_crispy_field }}
+      {{ form.email|as_crispy_field }}
     </div>
-    <div class="col-md-12">
-      {{ form.phoneno|as_crispy_field }}
-  </div>
-  <div class="col-md-12">
-    {{ form.id|as_crispy_field }}
-</div>
 
+    <div class="col-md-12">
+      {{ form.profile_image|as_crispy_field }}
+    </div>
   </div>
 
   <button type="submit" class="btn btn-success">Save</button>
 </form>
-
 {% endblock %}

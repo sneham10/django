@@ -18,5 +18,8 @@ from django.urls import path
 from mydapp import views
 urlpatterns = [
 path('admin/', admin.site.urls),
-    path('index/', views.index),
+    path('', views.index),
+    path('i2', views.index2),
+    path('i3', views.index3),
+    
 ] 
