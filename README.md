@@ -1,1 +1,1 @@
-# django
+# snehamuralidharan's django app
