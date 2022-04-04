@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'ecomp.urls'
+ROOT_URLCONF = 'ecom.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ecomp.wsgi.application'
+WSGI_APPLICATION = 'ecom.wsgi.application'
 
 
 

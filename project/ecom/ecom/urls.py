@@ -19,5 +19,5 @@ from ecomapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('ecom/', views.ecomp),
+    path('ecom/', views.ecom),
 ]

@@ -7,7 +7,7 @@ from .forms import SignupForm
 # Create your views here.
 
 
-def ecomp(request):
+def ecom(request):
     if request.method == 'POST':
         Signup = SignupForm(request.POST, request.FILES)
         if Signup.is_valid():

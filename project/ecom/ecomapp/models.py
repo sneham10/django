@@ -12,4 +12,4 @@ class Signup(models.Model):
     profile_image = models.FileField(blank=False)
 
     class Meta:
-        db_table = "ecomp"
+        db_table = "ecom"
